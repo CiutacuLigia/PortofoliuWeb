@@ -271,3 +271,16 @@ for example: li:nth-child(2) = selects the second element from the list*/
 .nextprev-btn:hover {
     color: var(--main-color);
 }
+
+.nextprev-btn.back {
+    left: 1.5rem;
+}
+
+.services-box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.services-box .services-content {
+    flex: 1 1;
+}
