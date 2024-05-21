@@ -1,4 +1,4 @@
-// turn pages whrn click next or prev
+// turn pages when click next or prev
 const pageTurnBtn = document.querySelectorAll('.nextprev-btn');
 
 pageTurnBtn.forEach((el, index) => {
@@ -30,13 +30,18 @@ const contactMeBtn = document.querySelector('.btn.contact-me');
 contactMeBtn.onclick = () => {
     pages.forEach((page, index) => {
         setTimeout(() => {
+            
             page.classList.add('turn');
-
+            
             setTimeout(() => {
                 page.style.zIndex = 20 + index;
             }, 500)
-        }, (index + 1) * 200 + 100)
-    })
+           pages[2].classList.remove("turn");
+            
+        }, (index +1) * 200 + 100)
+        
+    });
+    
 }
 
 
