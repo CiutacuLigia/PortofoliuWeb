@@ -180,9 +180,10 @@ body {
 inline-flex  =	Displays an element as an inline-level flex container */
 .btn {
     display: inline-flex;
+    flex-direction:row; 
     justify-content: center;
     align-items: center;
-    width: 9.5rem;
+    width: 6.5rem;
     height: 3rem;
     background: var(--main-color);
     border: var(--border);
