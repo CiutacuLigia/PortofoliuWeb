@@ -489,7 +489,7 @@ for example: li:nth-child(2) = selects the second element from the list*/
 .back-profile {
     position: absolute;
     bottom: 1.2rem;
-    left: 2rem;
+    right: 2rem;
     width: 2rem;
     height: 2rem;
     background: transparent;
